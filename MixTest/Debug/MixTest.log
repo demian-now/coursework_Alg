@@ -1,0 +1,4 @@
+﻿  MixTest.cpp
+C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(235,21): warning C4101: error: неиспользованная локальная переменная
+C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(276,22): warning C4101: error: неиспользованная локальная переменная
+  MixTest.vcxproj -> C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\Debug\MixTest.dll
