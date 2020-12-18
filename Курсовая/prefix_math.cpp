@@ -1,8 +1,8 @@
-#include "prefix_math.h"
+п»ї#include "prefix_math.h"
 #include "prefix.h"
 #include <iostream>
 
-string make_func(string input) //расчёт функций одного аргумента
+string make_func(string input) //СЂР°СЃС‡С‘С‚ С„СѓРЅРєС†РёР№ РѕРґРЅРѕРіРѕ Р°СЂРіСѓРјРµРЅС‚Р°
 {
 	string func, num;
 	char control = 0;
@@ -24,7 +24,7 @@ string make_func(string input) //расчёт функций одного аргумента
 		number = e;
 	else
 	{
-		prefix temp; //обработка неконстантного или составного аргумента 
+		prefix temp; //РѕР±СЂР°Р±РѕС‚РєР° РЅРµРєРѕРЅСЃС‚Р°РЅС‚РЅРѕРіРѕ РёР»Рё СЃРѕСЃС‚Р°РІРЅРѕРіРѕ Р°СЂРіСѓРјРµРЅС‚Р° 
 		temp.make_prefix(num);
 		number = stod(temp.get_result());
 	}
@@ -40,7 +40,7 @@ string make_func(string input) //расчёт функций одного аргумента
 	return to_string(result);
 }
 
-string make_operator(string input, string number_1, string number_2) //вычисления для операторов
+string make_operator(string input, string number_1, string number_2) //РІС‹С‡РёСЃР»РµРЅРёСЏ РґР»СЏ РѕРїРµСЂР°С‚РѕСЂРѕРІ
 {
 	double result = 0, num_1, num_2;
 	if (number_1 == "pi")
