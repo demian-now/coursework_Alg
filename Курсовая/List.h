@@ -30,6 +30,7 @@ public:
 	bool isEmpty();
 	void reverse();
 	void clear();
+
 private:
 	Node* head; 
 	Node* last;

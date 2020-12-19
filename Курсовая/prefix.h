@@ -10,6 +10,9 @@ private:
 	void get_normal_string();
 	void break_into_pieces(string);
 	void get_prefix();
+	friend string make_func(string input);
+	void clone();
+	void clear();
 
 public:
 	void make_prefix(string input);

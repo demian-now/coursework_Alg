@@ -174,43 +174,43 @@ namespace MixTest
 		prefix Test;
 		TEST_METHOD(SimpleMath)
 		{
-			string res = "+ 1 2 ";
+			string res = "+ 1 2";
 			Test.make_prefix("1+2");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
 		TEST_METHOD(TrigMath)
 		{
-			string res = "+ tg(pi) cos(e) ";
+			string res = "+ tg(pi) cos(e)";
 			Test.make_prefix("tg(pi) + cos(e)");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
 		TEST_METHOD(MathWithoutBracket_1)
 		{
-			string res = "+ + 1 * 2 3 4 ";
+			string res = "+ + 1 * 2 3 4";
 			Test.make_prefix("1+2*3+4");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
 		TEST_METHOD(MathWithoutBracket_2)
 		{
-			string res = "+ * 1 2 * 3 4 ";
+			string res = "+ * 1 2 * 3 4";
 			Test.make_prefix("1*2+3*4");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
 		TEST_METHOD(MathWithoutBracket_3)
 		{
-			string res = "+ + + 1 2 3 4 ";
+			string res = "+ + + 1 2 3 4";
 			Test.make_prefix("1+2+3+4");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
 		TEST_METHOD(MathWithBracket_1)
 		{
-			string res = "* + 1 2 + 3 4 ";
+			string res = "* + 1 2 + 3 4";
 			Test.make_prefix("(1+2)*(3+4)");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
 		TEST_METHOD(MathWithBracket_2)
 		{
-			string res = "- 0 + -2 3 ";
+			string res = "- 0 + -2 3";
 			Test.make_prefix("-(-2+3)");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
@@ -251,7 +251,6 @@ namespace MixTest
 			{
 				Assert::AreEqual(1, 1);
 			}
-			
 		}
 		TEST_METHOD(MixedMath_2)
 		{

@@ -1,4 +1,6 @@
 ﻿  MixTest.cpp
-C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(235,21): warning C4101: error: неиспользованная локальная переменная
-C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(276,22): warning C4101: error: неиспользованная локальная переменная
+C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(78,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(261,21): warning C4101: error: неиспользованная локальная переменная
+C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\prefix.cpp(309,22): warning C4101: error: неиспользованная локальная переменная
+     Создается библиотека C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\Debug\MixTest.lib и объект C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\Debug\MixTest.exp
   MixTest.vcxproj -> C:\Users\fastf\Desktop\ПРОГА\3 cеместр\Курсовая\Курсовая\Debug\MixTest.dll

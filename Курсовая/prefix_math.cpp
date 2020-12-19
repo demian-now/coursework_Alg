@@ -25,7 +25,10 @@ string make_func(string input) //расчёт функций одного арг
 	else
 	{
 		prefix temp; //обработка неконстантного или составного аргумента 
-		temp.make_prefix(num);
+		temp.break_into_pieces(num);
+		temp.get_normal_string();
+		temp.clone();
+		temp.calculate.reverse();
 		number = stod(temp.get_result());
 	}
 	if (func == "cos") result = cos(number);
