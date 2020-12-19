@@ -184,6 +184,12 @@ namespace MixTest
 			Test.make_prefix("tg(pi) + cos(e)");
 			Assert::AreEqual(Test.print_prefix(), res);
 		}
+		TEST_METHOD(TrigMath_Mix)
+		{
+			string res = "+ tg(+ / pi 2 3) cos(e)";
+			Test.make_prefix("tg(pi/2+3) + cos(e)");
+			Assert::AreEqual(Test.print_prefix(), res);
+		}
 		TEST_METHOD(MathWithoutBracket_1)
 		{
 			string res = "+ + 1 * 2 3 4";

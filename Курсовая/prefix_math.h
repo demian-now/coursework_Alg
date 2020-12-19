@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <math.h>
-#define pi 3.14159265358979
+#define pi 3.1415926535897932384626433832795
 #define e 2.7182818284
 
 using namespace std;
